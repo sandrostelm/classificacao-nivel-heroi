@@ -1,8 +1,10 @@
+//definindo dados do herói
+
 let nome = "Mestre Yoda ";
-let xp = 10999;  // Valor do nível de experiência do herói
+let xp = 10999;
 let nivel = "";
 
-// Estrutura de decisão para classificar o nível
+//classificando nível do herói com base nas determinantes
 
 if (xp < 1000) {
     nivel = "Ferro";
