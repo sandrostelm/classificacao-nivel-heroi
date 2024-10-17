@@ -1,4 +1,4 @@
-let nome = "Mestre Yoda";
+let nome = "Mestre Yoda ";
 let xp = 10999;  // Valor do nível de experiência do herói
 let nivel = "";
 
@@ -24,4 +24,4 @@ if (xp < 1000) {
 
 // Saída
 
-console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
+console.log("O Herói de nome " + nome + "está no nível de " + nivel);
